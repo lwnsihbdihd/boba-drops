@@ -3,8 +3,27 @@ img {
 }
 
 body {
-    text-align: center;
     font-family: "Arial";
-    background: skyblue;
-    color: orange
+    color: orange;
+}
+
+.box {
+    align-items: center;
+    background-color: rgb(118, 251, 213);
+    display: flex;
+}
+
+.inner_box {
+    text-wrap-mode: overflow;
+    padding-right: 5%;
+    padding-left: 5%;
+    max-width: 25%;
+    background-color: azure;
+}
+
+.inner_box_2 {
+    padding-right: 5%;
+    padding-left: 5%;
+    max-width: 25%;
+    background-color:aquamarine;
 }
