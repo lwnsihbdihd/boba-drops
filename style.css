@@ -9,21 +9,42 @@ body {
 
 .box {
     align-items: center;
-    background-color: rgb(118, 251, 213);
+    background-color: rgb(115, 227, 235);
     display: flex;
+    border-radius: 10px;
 }
 
 .inner_box {
-    text-wrap-mode: overflow;
+    margin: 20px 20px 20px 20px;
     padding-right: 5%;
-    padding-left: 5%;
     max-width: 25%;
-    background-color: azure;
 }
 
-.inner_box_2 {
+.name {
+    display: flex;
+    flex-direction: column;;
+}
+
+.title_1 {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+
     padding-right: 5%;
     padding-left: 5%;
+    margin: 10px 10px 10px 150px;
     max-width: 25%;
-    background-color:aquamarine;
+  
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.main_text_1 {
+    font-size: 150%;
+    color: white;
+    margin: 20px;
+
+    padding: 1% 1% 1% 1%;
+    background-color: orange;
+    border-radius: 10px;
 }
